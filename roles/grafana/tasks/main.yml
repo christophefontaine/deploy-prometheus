@@ -20,7 +20,7 @@
     name: grafana
     image: grafana/grafana
     exposed_ports: 3000
-    published_ports: 3000:3000
+    published_ports: 3001:3000
     volumes:
       - /var/lib/grafana:/var/lib/grafana:Z
     user: grafana
