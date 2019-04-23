@@ -1,4 +1,4 @@
-node_ip: 10.39.174.15
+node_ip: 10.39.174.1
 node_name: prometheus
 os_flavor: m1.medium
 os_image: CentOS-x86_64-GenericCloud-1708

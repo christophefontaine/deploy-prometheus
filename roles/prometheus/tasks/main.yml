@@ -4,6 +4,11 @@
   docker_image:
     name: prom/prometheus
 
+- name: delete prometheus-data dir
+  file:
+    state: absent
+    path: /prometheus-data
+
 - name: create prometheus-data dir
   file:
     state: directory
